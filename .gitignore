@@ -18,6 +18,9 @@
 /storage/*.key
 /storage/pail
 /vendor
+logs/
+nginx.pid
+*.log
 Homestead.json
 Homestead.yaml
 Thumbs.db

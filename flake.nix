@@ -18,8 +18,6 @@
             php84Packages.composer
             laravel
             nodejs
-            nginx
-            certbot
           ];
  
           shellHook = ''
