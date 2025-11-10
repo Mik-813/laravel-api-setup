@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
 Route::get('/', function () {
-    return view('welcome');
+    // This project is an API-only application; avoid returning Blade views.
+    return response()->json(['app' => 'Laravel API', 'status' => 'ok']);
 });

@@ -1,5 +1,5 @@
 {
-  description = "Web development dependencies";
+  description = "API development dependencies";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
@@ -17,7 +17,6 @@
             php84
             php84Packages.composer
             laravel
-            nodejs
           ];
  
           shellHook = ''
