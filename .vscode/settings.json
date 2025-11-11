@@ -1,13 +1,3 @@
 {
     "nixEnvPicker.envFile": "${workspaceFolder}${/}flake.nix",
-    "terminal.integrated.defaultProfile.linux": "Nix Develop",
-    "terminal.integrated.profiles.linux": {
-        "Nix Develop": {
-            "path": "bash",
-            "args": [
-                "-c",
-                "nix develop"
-            ]
-        }
-    }
 }
